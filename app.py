@@ -52,7 +52,7 @@ def main():
         else:
             play_file_uploaded(uploaded_file, file_type)
 
-    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11 = st.beta_columns([1,1,1,1,1,1,1,1,1,1,1])
+    col1, col2, col3, col4, col5, col6, col7, col8, col9, col10, col11 = st.columns([1,1,1,1,1,1,1,1,1,1,1])
     
     is_success=False
 
